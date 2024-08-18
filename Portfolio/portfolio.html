@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal's-portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/67da18e5b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>VK</h1>
+        </div>
+        <div class="nav-bar">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#about">Skill</a>
+                <a href="#contact-section">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="profile-pic">
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Vishal</span><br>Kumar From India</h1>
+
+            </div>
+            <div> <img src="circleimg.png" alt="profile-image"></div>
+        </div>
+        <!-- about section -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1><br><br>
+                        <p> Name: Vishal Kumar <br>
+                            Age: 19 <br>
+                            Location:Bihar, India <br><br>
+                           
+                            
+                            🌟 Hello ,I’m Vishal Kumar, a 19-year-old tech enthusiast hailing from Bihar, India. Currently embarking on an exciting journey as a first-year B.Tech student majoring in Computer Science and Engineering at Arya College of Engineering, Jaipur. 
+                            
+                            From an early age, I’ve been captivated by the power of technology and its ability to transform ideas into reality. My passion for web development drives me to constantly learn and improve my skills. With a solid foundation in HTML, CSS, JavaScript, and C Language, I’m dedicated to crafting dynamic, user-friendly websites that make a difference.
+                            
+                            Every line of code I write is a step towards building something innovative and impactful. Whether it's creating sleek, responsive designs or diving into complex algorithms, I’m always eager to push the boundaries of what’s possible. My goal is to blend creativity with technical expertise to develop web solutions that are both functional and visually appealing. 
+                            
+                            At Arya College of Engineering, I’m surrounded by like-minded individuals and mentors who inspire me to excel and stay ahead in the ever-evolving tech landscape. This is just the beginning of a thrilling journey filled with learning, growth, and endless possibilities.
+                            
+                            Join me as I continue to explore the fascinating world of technology and web development. Stay tuned for updates on my projects, achievements, and the exciting challenges I take on along the way. 
+                            
+                          <br> <br>
+                            
+                          
+                            </p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-Current</span><br>No Experience</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023-27</span><br>Pursuing B.Tech</li>
+                                <li><span>2022-23</span><br>12<sup>th</sup> Completed</li>
+                                <li><span>2020-21</span><br>10<sup>th</sup> Completed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact-section">
+            <div class="contact-container">
+                <div class="contact-row">
+                    <div class="contact-col-1">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> vishal271205@gmail.com</p>
+                        <div class="social-link-icon">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/hitesh-jangir-7b9109291/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                       
+                    </div>
+                    <div class="contact-col-2">
+                        <form action="">
+                            <input type="text" name="userName" placeholder="Your Name" required>
+                            <input type="email" name="userEmail" placeholder="Your Email">
+                            <textarea name="userResponse" rows="6" placeholder="Your Message"></textarea>
+                            <input type="submit" class="submit-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            Copyright &copy; <span>Vishal Kumar</span>. Made with <i class="fa-solid fa-heart"></i>
+        </div>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
